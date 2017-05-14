@@ -20,7 +20,6 @@
 		"editorCursor.foreground": "#ffffff",
 		"editorGroup.background": "#393f4c",
 		"editorGroup.border": "#1d2325",
-		"editorGroup.dropBackground": "#ff0000",
 		"editorGroupHeader.noTabsBackground": "#393f4c",
 		"editorGroupHeader.tabsBackground": "#181c1e",
 		"editorHoverWidget.background": "#21252B",
@@ -89,10 +88,17 @@
 			}
 		},
 		{
-			"name": "Strings",
+			"name": "String",
 			"scope": "string",
 			"settings": {
 				"foreground": "#ffff80"
+			}
+		},
+		{
+			"name": "String",
+			"scope": "string.regexp",
+			"settings": {
+				"foreground": "#ff7777"
 			}
 		},
 		{
@@ -137,30 +143,42 @@
 			"name": "Keywords",
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#e8e2b7"
+				"foreground": "#C0C0C0"
 			}
 		},
 		{
-			"name": "Meta",
-			"scope": "meta",
+			"name": "Keywords",
+			"scope": "keyword.operator.new",
 			"settings": {
-				"foreground": "#e8e2b7"
+				"foreground": "#a082bd"
 			}
 		},
 		{
 			"name": "Storage",
 			"scope": "storage",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#a082bd"
+			}
+		},
+		{
+			"name": "Storage metadata",
+			"scope": "storage.modifier.metadata",
+			"settings": {
+				"foreground": "#C0C0C0"
 			}
 		},
 		{
 			"name": "Storage types",
 			"scope": "storage.type",
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#a082bd"
+			}
+		},
+		{
+			"name": "Storage javadoc",
+			"scope": "storage.type.class.javadoc",
+			"settings": {
+				"foreground": "#C0C0C0"
 			}
 		},
 		{
@@ -193,12 +211,18 @@
 			"name": "Function arguments",
 			"scope": "variable.parameter",
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#ffffff"
 			}
 		},
 		{
-			"name": "Tag names",
+			"name": "Function javadoc",
+			"scope": "variable.other.javadoc",
+			"settings": {
+				"foreground": "#7d8c93"
+			}
+		},
+		{
+			"name": "Entity tag",
 			"scope": "entity.name.tag",
 			"settings": {
 				"fontStyle": "",
@@ -206,11 +230,27 @@
 			}
 		},
 		{
-			"name": "Tag attributes",
-			"scope": "entity.other.attribute-name",
+			"name": "Entity localname xml",
+			"scope": "entity.name.tag.localname.xml",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#ddbb88"
+				"foreground": "#678cb1"
+			}
+		},
+		{
+			"name": "Entity name xml",
+			"scope": "entity.name.tag.xml",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#678cb1"
+			}
+		},
+		{
+			"name": "Entity namespace xml",
+			"scope": "entity.name.tag.namespace.xml",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#678cb1"
 			}
 		},
 		{
@@ -253,6 +293,27 @@
 			"scope": "invalid",
 			"settings": {
 				"foreground": "#F8F8F0"
+			}
+		},
+		{
+			"name": "Meta",
+			"scope": "meta.method",
+			"settings": {
+				"foreground": "#C0C0C0"
+			}
+		},
+		{
+			"name": "Punctuation tag",
+			"scope": "punctuation.definition.tag",
+			"settings": {
+				"foreground": "#247BDB"
+			}
+		},
+		{
+			"name": "Punctuation tag xml",
+			"scope": "punctuation.definition.tag.xml",
+			"settings": {
+				"foreground": "#678cb1"
 			}
 		},
 		{
