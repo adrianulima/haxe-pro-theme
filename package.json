@@ -1,0 +1,22 @@
+{
+    "name": "haxeprotheme",
+    "displayName": "HaxeProTheme",
+    "description": "A theme made specially to haxe developers",
+    "version": "0.0.1",
+    "publisher": "adrianulima",
+    "engines": {
+        "vscode": "^1.12.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Haxe-Pro",
+                "uiTheme": "vs-dark",
+                "path": "./themes/haxe-pro-theme.json"
+            }
+        ]
+    }
+}
